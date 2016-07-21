@@ -1,1 +1,10 @@
-/* add your CSS here */
+body {
+    border: 1px;
+    background-color: rgb(237, 241, 235);
+    box-shadow: 4px 3px 4px 2px #b5adad;
+}
+h3 {
+    font-family: serif;
+    font-size: 2em;
+    padding-left: 10px;
+}
