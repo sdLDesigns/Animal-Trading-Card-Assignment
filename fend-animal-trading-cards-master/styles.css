@@ -1,21 +1,24 @@
-.card {
-    width: 340px;
-    height: 600px;
-    border: 1px solid black;
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(120, 114, 114);
+    max-width: 400px;
     box-shadow: 3px 4px 6px 4px rgb(209, 209, 209);
 }
 h3 {
     font-family: serif;
     font-size: 2em;
-    padding-left: 10px;
-    margin-top: 8px;
-    margin: 8px;
+    margin: 10px;
 }
 img {
-    padding: 10px;
+    width: 380px;
+    margin: auto;
 }
-.info {
-    border: 1px solid black;
-    width: 320px;
-    height: auto;
+.section {
+    display:flex;
+    flex-direction: column;
+    max-width: 380px;
+    border: 1px solid rgb(120, 114, 114);
+    margin: auto;
+    justify-content: center;
 }
